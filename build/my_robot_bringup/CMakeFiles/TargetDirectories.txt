@@ -1,0 +1,9 @@
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/uninstall.dir
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/my_robot_bringup_uninstall.dir
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/test.dir
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/edit_cache.dir
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/rebuild_cache.dir
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/list_install_components.dir
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/install.dir
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/install/local.dir
+/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/install/strip.dir
