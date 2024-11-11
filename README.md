@@ -28,6 +28,7 @@ De raspberrypi code staat hier:
 src/vision_rpi_bot/scripts/ Motor_pwm.py
 
 **---- Raspberry pi ----**
+
 Zorg dat je ROS2 op je raspberry pi hebt gedownload en git.
 Log in via SSH op je Raspberry pi en install git en de pi x car libary’s.
 sudo apt update
@@ -58,6 +59,7 @@ Daarna start de Node
 ros2 run vision_rpi_bot cmdVel_to_pwm_node
 
 **---- Local Machine ----**
+
 Eerst Runnen we de simulatie. Zorg dat je Ros2 op je computer hebt gedownload en git. Kies een bestand en plak daar het bestand in via git:
 git clone Https://github.com/laser606/semester-2.git
 
