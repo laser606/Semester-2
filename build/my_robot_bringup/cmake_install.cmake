@@ -1,8 +1,8 @@
-# Install script for directory: /home/marko/Desktop/Semester_2/Semester-2/src/Ros_Robot_simulation/src/my_robot_bringup
+# Install script for directory: /home/marko/Desktop/Semester_2/src/my_robot_bringup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/marko/Desktop/Semester_2/Semester-2/install/my_robot_bringup")
+  set(CMAKE_INSTALL_PREFIX "/home/marko/Desktop/Semester_2/install/my_robot_bringup")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,18 +44,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup/" TYPE DIRECTORY FILES
-    "/home/marko/Desktop/Semester_2/Semester-2/src/Ros_Robot_simulation/src/my_robot_bringup/launch"
-    "/home/marko/Desktop/Semester_2/Semester-2/src/Ros_Robot_simulation/src/my_robot_bringup/rviz"
-    "/home/marko/Desktop/Semester_2/Semester-2/src/Ros_Robot_simulation/src/my_robot_bringup/worlds"
+    "/home/marko/Desktop/Semester_2/src/my_robot_bringup/launch"
+    "/home/marko/Desktop/Semester_2/src/my_robot_bringup/rviz"
+    "/home/marko/Desktop/Semester_2/src/my_robot_bringup/worlds"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup/environment" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup/environment" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,42 +71,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup/environment" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup/environment" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_index/share/ament_index/resource_index/packages/my_robot_bringup")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_index/share/ament_index/resource_index/packages/my_robot_bringup")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup/cmake" TYPE FILE FILES
-    "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_core/my_robot_bringupConfig.cmake"
-    "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/ament_cmake_core/my_robot_bringupConfig-version.cmake"
+    "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_core/my_robot_bringupConfig.cmake"
+    "/home/marko/Desktop/Semester_2/build/my_robot_bringup/ament_cmake_core/my_robot_bringupConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/Semester-2/src/Ros_Robot_simulation/src/my_robot_bringup/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_bringup" TYPE FILE FILES "/home/marko/Desktop/Semester_2/src/my_robot_bringup/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +117,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/marko/Desktop/Semester_2/build/my_robot_bringup/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

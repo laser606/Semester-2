@@ -1,0 +1,45 @@
+[0.623s] Invoking command in '/home/marko/Desktop/Semester_2/src/vision_rpi_bot': PYTHONPATH=/home/marko/Desktop/Semester_2/build/vision_rpi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_rpi_bot build --build-base /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build install --record /home/marko/Desktop/Semester_2/build/vision_rpi_bot/install.log --single-version-externally-managed install_data
+[0.904s] running egg_info
+[0.905s] creating ../../build/vision_rpi_bot/vision_rpi_bot.egg-info
+[0.905s] writing ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/PKG-INFO
+[0.905s] writing dependency_links to ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/dependency_links.txt
+[0.906s] writing entry points to ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/entry_points.txt
+[0.906s] writing requirements to ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/requires.txt
+[0.906s] writing top-level names to ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/top_level.txt
+[0.908s] writing manifest file '../../build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+[0.908s] reading manifest file '../../build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+[0.916s] writing manifest file '../../build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+[0.916s] running build
+[0.916s] running build_py
+[0.917s] creating /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build
+[0.917s] creating /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib
+[0.917s] creating /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.918s] copying vision_rpi_bot/cmd_to_pwm_driver.py -> /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.918s] copying vision_rpi_bot/publisher.py -> /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.918s] copying vision_rpi_bot/__init__.py -> /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.918s] copying vision_rpi_bot/subscriber.py -> /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.918s] running install
+[0.918s] running install_lib
+[0.918s] creating /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.919s] copying /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot/cmd_to_pwm_driver.py -> /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.919s] copying /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot/publisher.py -> /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.924s] copying /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot/__init__.py -> /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.930s] copying /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build/lib/vision_rpi_bot/subscriber.py -> /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.931s] byte-compiling /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/cmd_to_pwm_driver.py to cmd_to_pwm_driver.cpython-310.pyc
+[0.931s] byte-compiling /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/publisher.py to publisher.cpython-310.pyc
+[0.932s] byte-compiling /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/__init__.py to __init__.cpython-310.pyc
+[0.932s] byte-compiling /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/subscriber.py to subscriber.cpython-310.pyc
+[0.932s] running install_data
+[0.932s] creating /home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/ament_index
+[0.932s] creating /home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/ament_index/resource_index
+[0.933s] creating /home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/ament_index/resource_index/packages
+[0.933s] copying resource/vision_rpi_bot -> /home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/ament_index/resource_index/packages
+[0.933s] copying package.xml -> /home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot
+[0.933s] running install_egg_info
+[0.933s] Copying ../../build/vision_rpi_bot/vision_rpi_bot.egg-info to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.958s] Installing cmdVel_to_pwm_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.964s] Installing publisher_rpi_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.964s] Installing subscriber_rpi_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.964s] writing list of installed files to '/home/marko/Desktop/Semester_2/build/vision_rpi_bot/install.log'
+[0.996s] Invoked command in '/home/marko/Desktop/Semester_2/src/vision_rpi_bot' returned '0': PYTHONPATH=/home/marko/Desktop/Semester_2/build/vision_rpi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_rpi_bot build --build-base /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build install --record /home/marko/Desktop/Semester_2/build/vision_rpi_bot/install.log --single-version-externally-managed install_data

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marko/Desktop/Semester_2/Semester-2/src/Ros_Robot_simulation/src/my_robot_bringup
+CMAKE_SOURCE_DIR = /home/marko/Desktop/Semester_2/src/my_robot_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup
+CMAKE_BINARY_DIR = /home/marko/Desktop/Semester_2/build/my_robot_bringup
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marko/Desktop/Semester_2/Semester-2/src/Ros_Robot_simulation/src/my_robot_bringup /home/marko/Desktop/Semester_2/Semester-2/src/Ros_Robot_simulation/src/my_robot_bringup /home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup /home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup /home/marko/Desktop/Semester_2/Semester-2/build/my_robot_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marko/Desktop/Semester_2/build/my_robot_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marko/Desktop/Semester_2/src/my_robot_bringup /home/marko/Desktop/Semester_2/src/my_robot_bringup /home/marko/Desktop/Semester_2/build/my_robot_bringup /home/marko/Desktop/Semester_2/build/my_robot_bringup /home/marko/Desktop/Semester_2/build/my_robot_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

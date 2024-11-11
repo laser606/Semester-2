@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/marko/Desktop/Semester_2/Semester-2/install/vision_rpi_bot'
+    sys.prefix = sys.exec_prefix = '/home/marko/Desktop/Semester_2/install/vision_rpi_bot'
