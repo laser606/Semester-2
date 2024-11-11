@@ -1,10 +1,15 @@
 **Mappen die de coaches kunnen beoordelen zijn:**
 
 Hier staan mijn urdf files geschreven in xacro:
+
 src/my_robot_description/urdf/camera.xacro
+
 src/my_robot_description/urdf/common_properties.xacro
+
 src/my_robot_description/urdf/mobile_base.xacro
+
 src/my_robot_description/urdf/mobile_base_gazebo.xacro
+
 src/my_robot_description/urdf/my_robot.urdf.xacro
 
 De launch file staat in geschreven in xml:
