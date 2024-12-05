@@ -1,0 +1,23 @@
+[0.840s] Invoking command in '/home/marko/Desktop/Semester_2/src/vision_rpi_bot': PYTHONPATH=/home/marko/Desktop/Semester_2/build/vision_rpi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_rpi_bot build --build-base /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build install --record /home/marko/Desktop/Semester_2/build/vision_rpi_bot/install.log --single-version-externally-managed install_data
+[1.041s] running egg_info
+[1.044s] writing ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/PKG-INFO
+[1.044s] writing dependency_links to ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/dependency_links.txt
+[1.044s] writing entry points to ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/entry_points.txt
+[1.044s] writing requirements to ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/requires.txt
+[1.044s] writing top-level names to ../../build/vision_rpi_bot/vision_rpi_bot.egg-info/top_level.txt
+[1.045s] reading manifest file '../../build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+[1.047s] writing manifest file '../../build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+[1.047s] running build
+[1.047s] running build_py
+[1.047s] running install
+[1.048s] running install_lib
+[1.049s] running install_data
+[1.049s] running install_egg_info
+[1.050s] removing '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.051s] Copying ../../build/vision_rpi_bot/vision_rpi_bot.egg-info to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot-0.0.0-py3.10.egg-info
+[1.054s] running install_scripts
+[1.078s] Installing cmdVel_to_pwm_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[1.078s] Installing publisher_rpi_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[1.079s] Installing subscriber_rpi_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[1.079s] writing list of installed files to '/home/marko/Desktop/Semester_2/build/vision_rpi_bot/install.log'
+[1.101s] Invoked command in '/home/marko/Desktop/Semester_2/src/vision_rpi_bot' returned '0': PYTHONPATH=/home/marko/Desktop/Semester_2/build/vision_rpi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_rpi_bot build --build-base /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build install --record /home/marko/Desktop/Semester_2/build/vision_rpi_bot/install.log --single-version-externally-managed install_data

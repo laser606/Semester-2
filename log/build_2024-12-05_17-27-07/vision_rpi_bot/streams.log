@@ -1,0 +1,19 @@
+[0.578s] Invoking command in '/home/marko/Desktop/Semester_2/build/vision_rpi_bot': PYTHONPATH=/home/marko/Desktop/Semester_2/build/vision_rpi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build --no-deps symlink_data
+[0.762s] running develop
+[0.876s] running egg_info
+[0.876s] writing vision_rpi_bot.egg-info/PKG-INFO
+[0.876s] writing dependency_links to vision_rpi_bot.egg-info/dependency_links.txt
+[0.876s] writing entry points to vision_rpi_bot.egg-info/entry_points.txt
+[0.876s] writing requirements to vision_rpi_bot.egg-info/requires.txt
+[0.877s] writing top-level names to vision_rpi_bot.egg-info/top_level.txt
+[0.880s] reading manifest file 'vision_rpi_bot.egg-info/SOURCES.txt'
+[0.881s] writing manifest file 'vision_rpi_bot.egg-info/SOURCES.txt'
+[0.883s] running build_ext
+[0.883s] Creating /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision-rpi-bot.egg-link (link to .)
+[0.888s] Installing cmdVel_to_pwm_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.888s] Installing publisher_rpi_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.888s] Installing subscriber_rpi_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.888s] 
+[0.888s] Installed /home/marko/Desktop/Semester_2/build/vision_rpi_bot
+[0.888s] running symlink_data
+[0.914s] Invoked command in '/home/marko/Desktop/Semester_2/build/vision_rpi_bot' returned '0': PYTHONPATH=/home/marko/Desktop/Semester_2/build/vision_rpi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build --no-deps symlink_data

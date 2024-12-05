@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing vision_rpi_bot.egg-info/PKG-INFO
+writing dependency_links to vision_rpi_bot.egg-info/dependency_links.txt
+writing entry points to vision_rpi_bot.egg-info/entry_points.txt
+writing requirements to vision_rpi_bot.egg-info/requires.txt
+writing top-level names to vision_rpi_bot.egg-info/top_level.txt
+reading manifest file 'vision_rpi_bot.egg-info/SOURCES.txt'
+writing manifest file 'vision_rpi_bot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages/vision-rpi-bot.egg-link (link to .)
+Installing cmdVel_to_pwm_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+Installing publisher_rpi_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+Installing subscriber_rpi_node script to /home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/vision_rpi_bot
+
+Installed /home/marko/Desktop/Semester_2/build/vision_rpi_bot
+running symlink_data
+symbolically linking /home/marko/Desktop/Semester_2/build/vision_rpi_bot/resource/vision_rpi_bot -> /home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/ament_index/resource_index/packages
+symbolically linking /home/marko/Desktop/Semester_2/build/vision_rpi_bot/package.xml -> /home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot

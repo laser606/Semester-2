@@ -1,0 +1,251 @@
+[0.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.166s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7207678f66e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7207678f6230>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7207678f6230>>, mixin_verb=('build',))
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/marko/Desktop/Semester_2'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_rpi_bot) by extension 'ros'
+[0.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_rpi_bot' with type 'ros.ament_python' and name 'vision_rpi_bot'
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/marko/Desktop/Semester_3/install
+[0.566s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marko/Desktop/Semester_2/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marko/Desktop/Semester_2/install/my_robot_description', 'merge_install': False, 'path': '/home/marko/Desktop/Semester_2/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'cmake_target' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'vision_rpi_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] DEBUG:colcon.colcon_core.verb:Building package 'vision_rpi_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marko/Desktop/Semester_2/build/vision_rpi_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marko/Desktop/Semester_2/install/vision_rpi_bot', 'merge_install': False, 'path': '/home/marko/Desktop/Semester_2/src/vision_rpi_bot', 'symlink_install': False, 'test_result_base': None}
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marko/Desktop/Semester_2/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marko/Desktop/Semester_2/install/my_robot_bringup', 'merge_install': False, 'path': '/home/marko/Desktop/Semester_2/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.658s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.660s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.663s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marko/Desktop/Semester_2/src/my_robot_description' with build type 'ament_cmake'
+[0.663s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marko/Desktop/Semester_2/src/my_robot_description'
+[0.667s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.672s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/marko/Desktop/Semester_2/src/vision_rpi_bot' with build type 'ament_python'
+[0.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_rpi_bot', 'ament_prefix_path')
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/hook/ament_prefix_path.ps1'
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/hook/ament_prefix_path.dsv'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/hook/ament_prefix_path.sh'
+[0.679s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.679s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marko/Desktop/Semester_2/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marko/Desktop/Semester_3/install/action_py:/opt/ros/humble /usr/bin/cmake --build /home/marko/Desktop/Semester_2/build/my_robot_description -- -j3 -l3
+[0.931s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/marko/Desktop/Semester_2/src/vision_rpi_bot'
+[0.931s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.931s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marko/Desktop/Semester_2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marko/Desktop/Semester_3/install/action_py:/opt/ros/humble /usr/bin/cmake --build /home/marko/Desktop/Semester_2/build/my_robot_description -- -j3 -l3
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marko/Desktop/Semester_2/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marko/Desktop/Semester_3/install/action_py:/opt/ros/humble /usr/bin/cmake --install /home/marko/Desktop/Semester_2/build/my_robot_description
+[1.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description' for CMake module files
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description' for CMake config files
+[1.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marko/Desktop/Semester_2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marko/Desktop/Semester_3/install/action_py:/opt/ros/humble /usr/bin/cmake --install /home/marko/Desktop/Semester_2/build/my_robot_description
+[1.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description/bin'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description/lib/python3.10/site-packages'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description/bin'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.sh'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.bash'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marko/Desktop/Semester_2/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description' for CMake module files
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description' for CMake config files
+[1.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description/bin'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description/lib/python3.10/site-packages'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_description/bin'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.sh'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.bash'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marko/Desktop/Semester_2/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.082s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marko/Desktop/Semester_2/src/my_robot_bringup' with build type 'ament_cmake'
+[1.082s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marko/Desktop/Semester_2/src/my_robot_bringup'
+[1.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marko/Desktop/Semester_2/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/marko/Desktop/Semester_2/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marko/Desktop/Semester_2/install/my_robot_description:/home/marko/Desktop/Semester_3/install/navigate_robot_interface:/home/marko/Desktop/Semester_3/install/action_py:/opt/ros/humble /usr/bin/cmake --build /home/marko/Desktop/Semester_2/build/my_robot_bringup -- -j3 -l3
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marko/Desktop/Semester_2/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/marko/Desktop/Semester_2/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marko/Desktop/Semester_2/install/my_robot_description:/home/marko/Desktop/Semester_3/install/navigate_robot_interface:/home/marko/Desktop/Semester_3/install/action_py:/opt/ros/humble /usr/bin/cmake --build /home/marko/Desktop/Semester_2/build/my_robot_bringup -- -j3 -l3
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marko/Desktop/Semester_2/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/marko/Desktop/Semester_2/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marko/Desktop/Semester_2/install/my_robot_description:/home/marko/Desktop/Semester_3/install/navigate_robot_interface:/home/marko/Desktop/Semester_3/install/action_py:/opt/ros/humble /usr/bin/cmake --install /home/marko/Desktop/Semester_2/build/my_robot_bringup
+[1.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup' for CMake module files
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup' for CMake config files
+[1.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marko/Desktop/Semester_2/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/marko/Desktop/Semester_2/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marko/Desktop/Semester_2/install/my_robot_description:/home/marko/Desktop/Semester_3/install/navigate_robot_interface:/home/marko/Desktop/Semester_3/install/action_py:/opt/ros/humble /usr/bin/cmake --install /home/marko/Desktop/Semester_2/build/my_robot_bringup
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup/bin'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup/lib/python3.10/site-packages'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup/bin'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[1.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[1.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marko/Desktop/Semester_2/src/vision_rpi_bot': PYTHONPATH=/home/marko/Desktop/Semester_2/build/vision_rpi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_rpi_bot build --build-base /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build install --record /home/marko/Desktop/Semester_2/build/vision_rpi_bot/install.log --single-version-externally-managed install_data
+[1.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup' for CMake module files
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup' for CMake config files
+[1.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup/bin'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup/lib/python3.10/site-packages'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/my_robot_bringup/bin'
+[1.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[1.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marko/Desktop/Semester_2/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/vision_rpi_bot' for CMake module files
+[1.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marko/Desktop/Semester_2/src/vision_rpi_bot' returned '0': PYTHONPATH=/home/marko/Desktop/Semester_2/build/vision_rpi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vision_rpi_bot build --build-base /home/marko/Desktop/Semester_2/build/vision_rpi_bot/build install --record /home/marko/Desktop/Semester_2/build/vision_rpi_bot/install.log --single-version-externally-managed install_data
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/vision_rpi_bot' for CMake config files
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/bin'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/pkgconfig/vision_rpi_bot.pc'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/lib/python3.10/site-packages'
+[1.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_rpi_bot', 'pythonpath')
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/hook/pythonpath.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/hook/pythonpath.dsv'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/hook/pythonpath.sh'
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/bin'
+[1.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_rpi_bot)
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/package.ps1'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/package.dsv'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/package.sh'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/package.bash'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/vision_rpi_bot/package.zsh'
+[1.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marko/Desktop/Semester_2/install/vision_rpi_bot/share/colcon-core/packages/vision_rpi_bot)
+[1.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.679s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.679s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.680s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.685s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.742s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marko/Desktop/Semester_2/install/local_setup.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/marko/Desktop/Semester_2/install/_local_setup_util_ps1.py'
+[1.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marko/Desktop/Semester_2/install/setup.ps1'
+[1.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marko/Desktop/Semester_2/install/local_setup.sh'
+[1.749s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/marko/Desktop/Semester_2/install/_local_setup_util_sh.py'
+[1.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marko/Desktop/Semester_2/install/setup.sh'
+[1.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marko/Desktop/Semester_2/install/local_setup.bash'
+[1.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marko/Desktop/Semester_2/install/setup.bash'
+[1.753s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marko/Desktop/Semester_2/install/local_setup.zsh'
+[1.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marko/Desktop/Semester_2/install/setup.zsh'
